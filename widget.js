@@ -5,8 +5,8 @@ window.addEventListener("load", async () => {
     return;
   }
 
-  const configUrl = `https://smobit.github.io/chatbot/config/${client}.json`;
-  const styleUrl = `https://smobit.github.io/chatbot/styles/${client}.css`;
+  const configUrl = `https://smobit.github.io/test/config/${client}.json`;
+  const styleUrl = `https://smobit.github.io/test/styles/${client}.css`;
 
   const style = document.createElement("link");
   style.rel = "stylesheet";
